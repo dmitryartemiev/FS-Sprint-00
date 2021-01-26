@@ -1,0 +1,55 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+.card {
+  position: relative;
+  display: flex;
+  background-color: beige;
+  width: 270px;
+  height: 140px;
+  margin: 25px;
+  border-radius: 5px;
+}
+img {
+  position: absolute;
+  height: 182px;
+  bottom: 0;
+  left: 5px;
+}
+.spider{
+    top:0;
+}
+.title{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: white;
+    font-size: 12px;
+}
+.name{
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    font-size: 9px;
+    color: rgba(255, 255, 255, .5);
+}
+.first{
+    background: linear-gradient(to top, #4568DC,#B06AB3 );
+}
+.second{
+    background: linear-gradient(to bottom, #e52d27, #b31217);
+}
+.third{
+    background: linear-gradient(to right, #000, #61045F);
+}
+.fourth{
+    background: linear-gradient(to bottom, #e52d27, #000000);
+}
