@@ -1,0 +1,17 @@
+.japan{
+    position: relative;
+    height: 400px;
+    width: 600px;
+    border: 2px solid lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.japan::after{
+    position: absolute;
+    content: '';
+    border-radius: 50%;
+    background-color: darkred;
+    height: 200px;
+    width: 200px;
+}
