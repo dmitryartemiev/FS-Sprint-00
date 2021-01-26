@@ -1,0 +1,42 @@
+table {
+    background: linear-gradient(90deg, #6e0000, antiquewhite);
+    text-align: center;
+    border: 4px solid black;
+    margin: auto;
+    border-collapse: collapse;
+    color: midnightblue;
+  }
+  
+  th {
+    padding: 10px;
+    color: #ffe369;
+    background-color: rgba(110, 0, 0, 0.4);
+    font-weight: bold;
+    border: 2px solid rgba(189, 195, 199, 0.05);
+  }
+  .else {
+    background-color: antiquewhite;
+    border: 2px solid rgba(189, 195, 199, 0.05);
+    padding: 5px 50px 5px 50px;
+  }
+  .name {
+    font-weight: bold;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  tr:nth-of-type(2n) {
+    background-color: rgba(143, 148, 251, 0.1);
+  }
+  tfoot tr td {
+    padding: 10px;
+  }
+  .false,
+  .hunderd {
+    background-color: #751c0f;
+    color: white;
+  }
+  a {
+    color: white;
+    font-weight: bold;
+  }
